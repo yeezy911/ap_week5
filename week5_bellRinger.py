@@ -14,9 +14,25 @@ last_a_index = print(magic.rindex('a'))
 
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
+# hij = print(alphabet[7:10])
+hij = print(alphabet.index('hij')) # output: 7
+hij2 = print(alphabet[7:10]) # output: hij
 # b. Extract every second letter starting from 'a' to 'm'.
+# get the letter m
+m_index = print(alphabet.index('m')) # output: 12
+every_second = print(alphabet[0:13:2]) # output: acegikm
+
 # c. Reverse the entire string using slicing.
+reversed_alphabet = print(alphabet[ : :-1])
+
+# i have a dream speech
+i_have_a_dream = "And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual"
+
+# reverse the i have a dream speech
+reversed_speech = print(i_have_a_dream[ : :-1])
+
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
